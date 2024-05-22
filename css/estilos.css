@@ -1,0 +1,118 @@
+/*estilos generales */
+
+html, body {
+	height: 100%;
+}
+
+/*modificador de modelo de cajas de css*/
+
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	-webkit-box-sizing: inherit;
+			box-sizing: inherit;
+}
+
+/*resetear margenes y bordes*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+#video-background {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+    }
+    #video-content {
+        position: relative;
+        z-index: 1;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    /*textos*/
+h1{
+	color: #fff;
+}
+h2 {
+	color: #fff;
+	margin: 50px;
+	text-align: center;
+	font-size: 30px;
+}
+
+h3 {
+	color: #fff;
+	margin-top: 25px;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*botones*/
+
+.btn {
+	display: block;
+	background-color: #1400ff;
+	width: 254px;
+	padding: 6px 5em;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 5px 5px 8px 0px #fff;
+	height: 85px;
+	margin-top: 40px;
+	margin-right: 35px;
+	transition: all 0.1s;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #1400ff;
+	box-shadow: 5px 5px 9px 4px #1400ff;
+	transition: all 0.1s;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+	/*cabezera*/
+div {
+	display: flex;
+	justify-content: center;
+	background-color: #35f276;
+}
+
+#titulo {
+	font-size: 50px;
+	padding-top: 30px;
+}
+
+/*menu*/
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+	background-color: #000000c4;
+}
+
+#test {
+	width: 200px;
+}
+
+#tema {
+	font-size: 43px;
+}
